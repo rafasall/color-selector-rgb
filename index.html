@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Color selector RGB</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <h2>Color Selector RGB</h2>
+    <div id="color-bars">
+      <span>
+        <label for="R">R: <input type="range" id="r" min="0" max="255" value="0" /></label>
+        <input type="text" name="r-value" id="r-value" disabled />
+      </span>
+      <span>
+        <label for="G">G: <input type="range" id="g" min="0" max="255" value="0" /></label>
+        <input type="text" name="r-value" id="g-value" disabled />
+      </span>
+      <span>
+        <label for="B">B: <input type="range" id="b" min="0" max="255" value="0" /></label>
+        <input type="text" name="r-value" id="b-value" disabled />
+      </span>
+      <div>
+        <span id="displayColor">RGB(0,0,0)</span>
+      </div>
+    </div>
+    <div id="color-chosen">
+    </div>
+
+    <div class="credits">
+      <div>OPadilha</div>
+      <span>Created with love by <a href="https://github.com/rooseveltpadilha" target="_blank"><strong>Roosevelt
+            Padilha</strong></a></span>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

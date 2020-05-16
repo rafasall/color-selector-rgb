@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background: url('../img/bg.jpeg') right center no-repeat;
+  display: flex;
+  color: #222;
+}
+#container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 100%;
+  align-items: center;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 2%;
+  box-shadow: -2px 2px 4px #333;
+}
+
+h2 {
+  font-family: 'Merienda', cursive;
+  font-size: 3em;
+}
+
+
+#color-bars {
+  margin-top: 20px;
+}
+
+#color-bars > div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#color-bars > div > span {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  color: rgb(216, 216, 216);
+}
+
+#r-value, #g-value, #b-value {
+  width: 40px;
+  text-align: center;
+  border-radius: 10%;
+  border: 0px solid;
+  background-color: rgb(247, 247, 247);
+  font-size: 1em;
+}
+
+#color-bars > span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+#color-chosen {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 10%;
+  border: solid rgb(236, 236, 236);
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  font-size: 1.1em;
+}
+
+.credits > div {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  font-family: 'Merienda One', cursive;
+}
+
+.credits > span > a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
